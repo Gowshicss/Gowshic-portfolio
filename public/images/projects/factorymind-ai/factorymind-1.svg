@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" width="100%" height="100%">
+  <rect width="900" height="560" fill="#0A0A0A"/>
+  
+  <rect x="40" y="40" width="820" height="480" rx="6" fill="#141414" stroke="#303030" stroke-width="1.5"/>
+  <rect x="40" y="40" width="820" height="44" rx="6" fill="#1C1C1C"/>
+  <circle cx="65" cy="62" r="5" fill="#C9A44C"/>
+  <rect x="130" y="52" width="280" height="20" rx="3" fill="#0A0A0A"/>
+  <text x="145" y="66" fill="#B7B7B7" font-family="'Space Grotesk', monospace" font-size="11">factorymind.ai // Telemetry Pipeline &amp; Sensor Stream</text>
+
+  <!-- Left: Industrial Telemetry Flow -->
+  <g transform="translate(65, 105)">
+    <rect x="0" y="0" width="370" height="390" rx="4" fill="#1C1C1C" stroke="#303030"/>
+    <text x="25" y="40" fill="#FFFFFF" font-family="'Space Grotesk', sans-serif" font-size="16" font-weight="700">Factory Telemetry Network</text>
+    <text x="25" y="65" fill="#B7B7B7" font-family="system-ui, sans-serif" font-size="12">Active industrial sensors &amp; real-time monitors</text>
+
+    <!-- Machinery nodes -->
+    <circle cx="80" cy="150" r="24" fill="#141414" stroke="#C9A44C" stroke-width="2"/>
+    <text x="69" y="155" fill="#C9A44C" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="700">M-01</text>
+
+    <circle cx="185" cy="110" r="24" fill="#141414" stroke="#FFFFFF" stroke-width="2"/>
+    <text x="174" y="115" fill="#FFFFFF" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="700">M-02</text>
+
+    <circle cx="290" cy="150" r="24" fill="#141414" stroke="#C9A44C" stroke-width="2"/>
+    <text x="279" y="155" fill="#C9A44C" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="700">M-03</text>
+
+    <circle cx="185" cy="240" r="32" fill="#141414" stroke="#C9A44C" stroke-width="2.5"/>
+    <text x="160" y="244" fill="#C9A44C" font-family="'Space Grotesk', sans-serif" font-size="10" font-weight="700">AI CORE</text>
+
+    <!-- Connections -->
+    <line x1="98" y1="164" x2="160" y2="225" stroke="#C9A44C" stroke-width="1.5" stroke-dasharray="3 3"/>
+    <line x1="185" y1="134" x2="185" y2="208" stroke="#FFFFFF" stroke-width="1.5" stroke-dasharray="3 3"/>
+    <line x1="272" y1="164" x2="210" y2="225" stroke="#C9A44C" stroke-width="1.5" stroke-dasharray="3 3"/>
+
+    <rect x="25" y="310" width="320" height="55" rx="3" fill="#141414" stroke="#2B2B2B"/>
+    <text x="40" y="332" fill="#C9A44C" font-family="monospace" font-size="11">✓ Telemetry Stream: Stable</text>
+    <text x="40" y="352" fill="#B7B7B7" font-family="monospace" font-size="11">14 Industrial Nodes Monitored</text>
+  </g>
+
+  <!-- Right: Vitals & Alert Console -->
+  <g transform="translate(465, 105)">
+    <rect x="0" y="0" width="370" height="185" rx="4" fill="#1C1C1C" stroke="#303030"/>
+    <text x="25" y="35" fill="#FFFFFF" font-family="'Space Grotesk', sans-serif" font-size="15" font-weight="700">Real-Time Vitals &amp; Drift</text>
+    
+    <rect x="25" y="60" width="150" height="60" rx="3" fill="#141414"/>
+    <text x="35" y="82" fill="#B7B7B7" font-family="'Space Grotesk', sans-serif" font-size="10">VIBRATION DRIFT</text>
+    <text x="35" y="106" fill="#C9A44C" font-family="'Space Grotesk', sans-serif" font-size="16" font-weight="700">&lt; 0.03 mm/s</text>
+
+    <rect x="195" y="60" width="150" height="60" rx="3" fill="#141414"/>
+    <text x="205" y="82" fill="#B7B7B7" font-family="'Space Grotesk', sans-serif" font-size="10">MOTOR TEMP</text>
+    <text x="205" y="106" fill="#FFFFFF" font-family="'Space Grotesk', sans-serif" font-size="16" font-weight="700">41.8 °C (Norm)</text>
+
+    <rect x="25" y="135" width="320" height="30" rx="3" fill="#141414"/>
+    <text x="35" y="155" fill="#C9A44C" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="600">Jury Award: 3rd Place Winner (₹1,000)</text>
+
+    <rect x="0" y="205" width="370" height="185" rx="4" fill="#1C1C1C" stroke="#303030"/>
+    <text x="25" y="240" fill="#FFFFFF" font-family="'Space Grotesk', sans-serif" font-size="15" font-weight="700">Predictive Anomaly Classifier</text>
+    <text x="25" y="270" fill="#B7B7B7" font-family="system-ui, sans-serif" font-size="12">Threshold-based drift detection flagging anomalous vibrations prior to mechanical failure.</text>
+    <rect x="25" y="325" width="125" height="32" rx="3" fill="#C9A44C"/>
+    <text x="40" y="346" fill="#0A0A0A" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="700">Factory Status</text>
+  </g>
+</svg>

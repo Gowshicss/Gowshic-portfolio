@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <rect width="800" height="500" fill="#0A0A0A"/>
+  
+  <rect x="30" y="30" width="740" height="440" rx="6" fill="#141414" stroke="#303030" stroke-width="1.5"/>
+  <rect x="30" y="30" width="740" height="40" rx="6" fill="#1C1C1C"/>
+  <circle cx="55" cy="50" r="5" fill="#C9A44C"/>
+
+  <g transform="translate(400, 180)">
+    <circle cx="0" cy="0" r="50" fill="#1C1C1C" stroke="#FFFFFF" stroke-width="2"/>
+    <!-- Terminal / code workshop emblem -->
+    <rect x="-24" y="-18" width="48" height="36" rx="4" fill="#0A0A0A" stroke="#C9A44C" stroke-width="2"/>
+    <polyline points="-16,-6 -10,0 -16,6" fill="none" stroke="#C9A44C" stroke-width="2"/>
+    <line x1="-6" y1="8" x2="10" y2="8" stroke="#FFFFFF" stroke-width="2"/>
+  </g>
+
+  <text x="400" y="285" fill="#FFFFFF" font-family="'Space Grotesk', sans-serif" font-size="22" font-weight="700" text-anchor="middle">Student Hands-on Coding Workshop</text>
+  <text x="400" y="315" fill="#C9A44C" font-family="'Space Grotesk', sans-serif" font-size="15" font-weight="600" text-anchor="middle">Python, Problem Solving &amp; Algorithmic Foundations</text>
+  <text x="400" y="342" fill="#B7B7B7" font-family="system-ui, sans-serif" font-size="13" text-anchor="middle">Mentoring junior undergraduates across core coding skills</text>
+
+  <rect x="230" y="375" width="340" height="34" rx="4" fill="#1C1C1C" stroke="#303030"/>
+  <text x="400" y="397" fill="#B7B7B7" font-family="system-ui, sans-serif" font-size="11" text-anchor="middle">Place genuine photo at: public/images/ignite/ignite-workshop.jpg</text>
+</svg>

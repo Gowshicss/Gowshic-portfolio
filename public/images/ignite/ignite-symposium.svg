@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <rect width="800" height="500" fill="#0A0A0A"/>
+  
+  <rect x="30" y="30" width="740" height="440" rx="6" fill="#141414" stroke="#303030" stroke-width="1.5"/>
+  <rect x="30" y="30" width="740" height="40" rx="6" fill="#1C1C1C"/>
+  <circle cx="55" cy="50" r="5" fill="#C9A44C"/>
+
+  <g transform="translate(400, 180)">
+    <circle cx="0" cy="0" r="50" fill="#1C1C1C" stroke="#C9A44C" stroke-width="2"/>
+    <!-- Flame / Ignite torch -->
+    <path d="M 0 -26 C 14 -10, 18 8, 9 20 C 4 27, -8 27, -11 18 C -14 7, -2 -10, 0 -26 Z" fill="#C9A44C"/>
+    <path d="M 0 -12 C 7 -2, 9 10, 4 17 C 0 21, -5 21, -6 15 C -8 8, -3 0, 0 -12 Z" fill="#FFFFFF"/>
+  </g>
+
+  <text x="400" y="285" fill="#FFFFFF" font-family="'Space Grotesk', sans-serif" font-size="22" font-weight="700" text-anchor="middle">IGNITE Technical Symposium</text>
+  <text x="400" y="315" fill="#C9A44C" font-family="'Space Grotesk', sans-serif" font-size="15" font-weight="600" text-anchor="middle">Annual Department Technical Convention</text>
+  <text x="400" y="342" fill="#B7B7B7" font-family="system-ui, sans-serif" font-size="13" text-anchor="middle">Department of IT · Dr. Mahalingam College of Engineering &amp; Technology</text>
+
+  <rect x="230" y="375" width="340" height="34" rx="4" fill="#1C1C1C" stroke="#303030"/>
+  <text x="400" y="397" fill="#B7B7B7" font-family="system-ui, sans-serif" font-size="11" text-anchor="middle">Place genuine photo at: public/images/ignite/ignite-symposium.jpg</text>
+</svg>

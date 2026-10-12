@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <defs>
+    <linearGradient id="mpBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e1017"/>
+      <stop offset="100%" stop-color="#141822"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="500" fill="url(#mpBg)"/>
+
+  <rect x="60" y="60" width="680" height="380" rx="8" fill="#13151f" stroke="#252a38" stroke-width="1.5"/>
+  <rect x="60" y="60" width="680" height="42" rx="8" fill="#1a1e2b"/>
+  <circle cx="85" cy="81" r="5" fill="#ef4444"/>
+  <circle cx="102" cy="81" r="5" fill="#f59e0b"/>
+  <circle cx="119" cy="81" r="5" fill="#10b981"/>
+  <rect x="150" y="72" width="280" height="18" rx="4" fill="#0e1017"/>
+  <text x="165" y="85" fill="#64748b" font-family="'Space Grotesk', monospace" font-size="11">linear_regression_study_hours.py</text>
+
+  <!-- Left: Scatter plot + Regression line -->
+  <g transform="translate(90, 130)">
+    <rect x="0" y="0" width="360" height="270" rx="6" fill="#171a24" stroke="#242938"/>
+    <text x="20" y="28" fill="#f8fafc" font-family="'Space Grotesk', sans-serif" font-size="13" font-weight="600">Study Hours vs. Student Marks</text>
+    
+    <!-- Coordinate axes -->
+    <line x1="45" y1="230" x2="330" y2="230" stroke="#333a4d" stroke-width="1.5"/>
+    <line x1="45" y1="50" x2="45" y2="230" stroke="#333a4d" stroke-width="1.5"/>
+    <text x="280" y="246" fill="#64748b" font-family="sans-serif" font-size="10">Hours (X)</text>
+    <text x="10" y="65" fill="#64748b" font-family="sans-serif" font-size="10">Marks (Y)</text>
+
+    <!-- Data points -->
+    <circle cx="70" cy="205" r="4" fill="#60a5fa"/>
+    <circle cx="105" cy="185" r="4" fill="#60a5fa"/>
+    <circle cx="130" cy="190" r="4" fill="#60a5fa"/>
+    <circle cx="160" cy="165" r="4" fill="#60a5fa"/>
+    <circle cx="190" cy="145" r="4" fill="#60a5fa"/>
+    <circle cx="215" cy="150" r="4" fill="#60a5fa"/>
+    <circle cx="245" cy="115" r="4" fill="#60a5fa"/>
+    <circle cx="270" cy="95" r="4" fill="#60a5fa"/>
+    <circle cx="300" cy="80" r="4" fill="#60a5fa"/>
+
+    <!-- Best fit regression line -->
+    <line x1="55" y1="220" x2="320" y2="70" stroke="#2563eb" stroke-width="2.5"/>
+  </g>
+
+  <!-- Right: ML Experiment notes -->
+  <g transform="translate(470, 130)">
+    <rect x="0" y="0" width="240" height="270" rx="6" fill="#171a24" stroke="#242938"/>
+    <text x="20" y="30" fill="#38bdf8" font-family="monospace" font-size="11">// LEARNING EXPERIMENT</text>
+    <text x="20" y="58" fill="#f8fafc" font-family="'Space Grotesk', sans-serif" font-size="15" font-weight="700">Linear Regression</text>
+    
+    <text x="20" y="90" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11">Model: Ordinary Least Squares</text>
+    <text x="20" y="112" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11">Library: Scikit-learn &amp; NumPy</text>
+    <text x="20" y="134" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11">Target: Academic marks %</text>
+    <text x="20" y="156" fill="#94a3b8" font-family="system-ui, sans-serif" font-size="11">Feature: Daily study hours</text>
+
+    <rect x="20" y="180" width="200" height="70" rx="4" fill="#11131a" stroke="#252a38"/>
+    <text x="30" y="202" fill="#10b981" font-family="monospace" font-size="11">y = m · x + c</text>
+    <text x="30" y="222" fill="#64748b" font-family="system-ui, sans-serif" font-size="10">Understands correlation limits,</text>
+    <text x="30" y="238" fill="#64748b" font-family="system-ui, sans-serif" font-size="10">feature bounds &amp; residuals.</text>
+  </g>
+</svg>

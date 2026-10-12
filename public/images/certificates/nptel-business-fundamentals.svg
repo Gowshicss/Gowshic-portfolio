@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 640" width="100%" height="100%">
+  <rect width="900" height="640" fill="#0A0A0A"/>
+  
+  <rect x="25" y="25" width="850" height="590" fill="#141414" stroke="#303030" stroke-width="2"/>
+  <rect x="35" y="35" width="830" height="570" fill="#1C1C1C" stroke="#C9A44C" stroke-width="1.5" stroke-dasharray="8 6"/>
+  
+  <!-- Corner Gold Marks -->
+  <rect x="20" y="20" width="16" height="16" fill="#C9A44C"/>
+  <rect x="864" y="20" width="16" height="16" fill="#C9A44C"/>
+  <rect x="20" y="604" width="16" height="16" fill="#C9A44C"/>
+  <rect x="864" y="604" width="16" height="16" fill="#C9A44C"/>
+
+  <!-- Header -->
+  <text x="450" y="95" fill="#FFFFFF" font-family="'Space Grotesk', serif" font-size="28" font-weight="700" letter-spacing="4" text-anchor="middle">NPTEL ONLINE CERTIFICATION</text>
+  <text x="450" y="125" fill="#C9A44C" font-family="system-ui, sans-serif" font-size="14" letter-spacing="1.5" text-anchor="middle">FUNDED BY THE MINISTRY OF EDUCATION, GOVT. OF INDIA</text>
+  
+  <line x1="250" y1="145" x2="650" y2="145" stroke="#303030" stroke-width="1"/>
+
+  <!-- Certificate text -->
+  <text x="450" y="195" fill="#B7B7B7" font-family="system-ui, sans-serif" font-size="15" text-anchor="middle">This is to certify that</text>
+  <text x="450" y="245" fill="#FFFFFF" font-family="'Space Grotesk', sans-serif" font-size="34" font-weight="700" letter-spacing="1" text-anchor="middle">GOWSHIC</text>
+
+  <text x="450" y="295" fill="#B7B7B7" font-family="system-ui, sans-serif" font-size="15" text-anchor="middle">has successfully completed the course</text>
+  <text x="450" y="340" fill="#FFFFFF" font-family="'Space Grotesk', sans-serif" font-size="24" font-weight="700" text-anchor="middle">Business Fundamentals for Entrepreneurs</text>
+  <text x="450" y="375" fill="#C9A44C" font-family="system-ui, sans-serif" font-size="16" font-weight="600" text-anchor="middle">Offered by IIT Bombay</text>
+
+  <!-- Gold Score Badge -->
+  <g transform="translate(325, 410)">
+    <rect x="0" y="0" width="250" height="70" rx="6" fill="#141414" stroke="#C9A44C" stroke-width="1.5"/>
+    <text x="125" y="30" fill="#E0BD69" font-family="'Space Grotesk', sans-serif" font-size="14" font-weight="700" letter-spacing="1" text-anchor="middle">★ ELITE CERTIFICATE ★</text>
+    <text x="125" y="55" fill="#FFFFFF" font-family="'Space Grotesk', sans-serif" font-size="16" font-weight="700" text-anchor="middle">Consolidated Score: 70%</text>
+  </g>
+
+  <!-- Footer details -->
+  <g transform="translate(70, 525)">
+    <text x="0" y="20" fill="#B7B7B7" font-family="system-ui, sans-serif" font-size="13">Course Duration: Jan – Apr 2026</text>
+    <text x="0" y="40" fill="#B7B7B7" font-family="system-ui, sans-serif" font-size="13">Issuing Body: NPTEL &amp; IIT Bombay</text>
+  </g>
+
+  <g transform="translate(680, 525)">
+    <line x1="0" y1="20" x2="150" y2="20" stroke="#C9A44C" stroke-width="1.5"/>
+    <text x="75" y="40" fill="#B7B7B7" font-family="system-ui, sans-serif" font-size="12" text-anchor="middle">IIT Bombay Coordinator</text>
+  </g>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" width="100%" height="100%">
+  <rect width="900" height="560" fill="#0A0A0A"/>
+  
+  <rect x="40" y="40" width="820" height="480" rx="6" fill="#141414" stroke="#303030" stroke-width="1.5"/>
+  <rect x="40" y="40" width="820" height="44" rx="6" fill="#1C1C1C"/>
+  <circle cx="65" cy="62" r="5" fill="#C9A44C"/>
+  <rect x="130" y="52" width="280" height="20" rx="3" fill="#0A0A0A"/>
+  <text x="145" y="66" fill="#B7B7B7" font-family="'Space Grotesk', monospace" font-size="11">factorymind.ai // Incident Alert Log</text>
+
+  <g transform="translate(70, 110)">
+    <rect x="0" y="0" width="760" height="380" rx="4" fill="#1C1C1C" stroke="#303030"/>
+    <text x="35" y="45" fill="#FFFFFF" font-family="'Space Grotesk', sans-serif" font-size="20" font-weight="700">Industrial Sensor Telemetry Logs &amp; Events</text>
+    <line x1="35" y1="65" x2="725" y2="65" stroke="#303030" stroke-width="1"/>
+
+    <!-- Event table mock -->
+    <rect x="35" y="90" width="690" height="45" rx="3" fill="#141414"/>
+    <text x="55" y="118" fill="#C9A44C" font-family="monospace" font-size="12">NODE-02</text>
+    <text x="160" y="118" fill="#FFFFFF" font-family="monospace" font-size="12">VIBRATION SPIKE: 0.082 mm/s</text>
+    <text x="460" y="118" fill="#B7B7B7" font-family="monospace" font-size="12">Warning Threshold Handled</text>
+    <text x="650" y="118" fill="#C9A44C" font-family="monospace" font-size="12">RESOLVED</text>
+
+    <rect x="35" y="145" width="690" height="45" rx="3" fill="#141414"/>
+    <text x="55" y="173" fill="#FFFFFF" font-family="monospace" font-size="12">NODE-04</text>
+    <text x="160" y="173" fill="#FFFFFF" font-family="monospace" font-size="12">TEMPERATURE DRIFT: 48.2 °C</text>
+    <text x="460" y="173" fill="#B7B7B7" font-family="monospace" font-size="12">Auto-Throttle Triggered</text>
+    <text x="650" y="173" fill="#C9A44C" font-family="monospace" font-size="12">NOMINAL</text>
+
+    <rect x="35" y="200" width="690" height="45" rx="3" fill="#141414"/>
+    <text x="55" y="228" fill="#C9A44C" font-family="monospace" font-size="12">NODE-01</text>
+    <text x="160" y="228" fill="#FFFFFF" font-family="monospace" font-size="12">BEARING FRICTION NORMAL</text>
+    <text x="460" y="228" fill="#B7B7B7" font-family="monospace" font-size="12">Telemetry Stream In Sync</text>
+    <text x="650" y="228" fill="#FFFFFF" font-family="monospace" font-size="12">ACTIVE</text>
+  </g>
+</svg>

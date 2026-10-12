@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500" width="100%" height="100%">
+  <rect width="800" height="500" fill="#141414"/>
+  <rect x="20" y="20" width="760" height="460" fill="#1C1C1C" stroke="#303030" stroke-width="1.5" rx="6"/>
+  
+  <!-- Subtle gold frame corners -->
+  <line x1="20" y1="20" x2="60" y2="20" stroke="#C9A44C" stroke-width="2"/>
+  <line x1="20" y1="20" x2="20" y2="60" stroke="#C9A44C" stroke-width="2"/>
+  <line x1="780" y1="20" x2="740" y2="20" stroke="#C9A44C" stroke-width="2"/>
+  <line x1="780" y1="20" x2="780" y2="60" stroke="#C9A44C" stroke-width="2"/>
+  <line x1="20" y1="480" x2="60" y2="480" stroke="#C9A44C" stroke-width="2"/>
+  <line x1="20" y1="480" x2="20" y2="440" stroke="#C9A44C" stroke-width="2"/>
+  <line x1="780" y1="480" x2="740" y2="480" stroke="#C9A44C" stroke-width="2"/>
+  <line x1="780" y1="480" x2="780" y2="440" stroke="#C9A44C" stroke-width="2"/>
+
+  <!-- Center photo graphic -->
+  <g transform="translate(400, 220)">
+    <circle cx="0" cy="0" r="44" fill="#0A0A0A" stroke="#303030" stroke-width="1.5"/>
+    <path d="M -16 -8 L 16 -8 L 16 12 L -16 12 Z" fill="none" stroke="#C9A44C" stroke-width="2"/>
+    <circle cx="-6" cy="-1" r="3" fill="#C9A44C"/>
+    <polyline points="-14,10 -4,1 4,7 9,3 14,10" fill="none" stroke="#FFFFFF" stroke-width="1.5"/>
+  </g>
+
+  <text x="400" y="300" fill="#FFFFFF" font-family="'Space Grotesk', sans-serif" font-size="16" font-weight="700" letter-spacing="1" text-anchor="middle">IMAGE PLACEHOLDER</text>
+  <text x="400" y="325" fill="#B7B7B7" font-family="system-ui, sans-serif" font-size="13" text-anchor="middle">Add your genuine photo to the corresponding public/images/ directory</text>
+</svg>

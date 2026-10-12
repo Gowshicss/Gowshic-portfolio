@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 560" width="100%" height="100%">
+  <rect width="900" height="560" fill="#0A0A0A"/>
+  
+  <!-- Outer Window Frame -->
+  <rect x="40" y="40" width="820" height="480" rx="6" fill="#141414" stroke="#303030" stroke-width="1.5"/>
+  <rect x="40" y="40" width="820" height="44" rx="6" fill="#1C1C1C"/>
+  <circle cx="65" cy="62" r="5" fill="#C9A44C"/>
+  <circle cx="82" cy="62" r="5" fill="#404040"/>
+  <circle cx="99" cy="62" r="5" fill="#404040"/>
+  <rect x="130" y="52" width="300" height="20" rx="3" fill="#0A0A0A"/>
+  <text x="145" y="66" fill="#B7B7B7" font-family="'Space Grotesk', monospace" font-size="11">technova.internal // Placement Readiness Intelligence</text>
+
+  <!-- Left Sidebar -->
+  <rect x="55" y="100" width="180" height="405" rx="4" fill="#1C1C1C" stroke="#262626"/>
+  <rect x="75" y="125" width="110" height="12" rx="2" fill="#C9A44C"/>
+  <rect x="75" y="160" width="130" height="8" rx="2" fill="#303030"/>
+  <rect x="75" y="185" width="115" height="8" rx="2" fill="#303030"/>
+  <rect x="75" y="210" width="140" height="8" rx="2" fill="#303030"/>
+  <rect x="75" y="235" width="90" height="8" rx="2" fill="#303030"/>
+
+  <!-- Main Dashboard Canvas -->
+  <rect x="250" y="100" width="595" height="110" rx="4" fill="#1C1C1C" stroke="#303030"/>
+  <text x="275" y="140" fill="#FFFFFF" font-family="'Space Grotesk', sans-serif" font-size="20" font-weight="700">TechNova Student Dashboard</text>
+  <text x="275" y="168" fill="#B7B7B7" font-family="system-ui, sans-serif" font-size="13">Centralized academic records, verified skills &amp; placement eligibility</text>
+  <rect x="720" y="125" width="105" height="30" rx="3" fill="#C9A44C"/>
+  <text x="735" y="145" fill="#0A0A0A" font-family="'Space Grotesk', sans-serif" font-size="12" font-weight="700">Analytics</text>
+
+  <!-- Metrics Cards Row -->
+  <rect x="250" y="225" width="185" height="100" rx="4" fill="#1C1C1C" stroke="#303030"/>
+  <text x="270" y="255" fill="#B7B7B7" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="600">SKILL READINESS</text>
+  <text x="270" y="295" fill="#C9A44C" font-family="'Space Grotesk', sans-serif" font-size="24" font-weight="700">88.4%</text>
+
+  <rect x="455" y="225" width="185" height="100" rx="4" fill="#1C1C1C" stroke="#303030"/>
+  <text x="475" y="255" fill="#B7B7B7" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="600">PLACEMENT CRITERIA</text>
+  <text x="475" y="295" fill="#FFFFFF" font-family="'Space Grotesk', sans-serif" font-size="24" font-weight="700">Verified</text>
+
+  <rect x="660" y="225" width="185" height="100" rx="4" fill="#1C1C1C" stroke="#303030"/>
+  <text x="680" y="255" fill="#B7B7B7" font-family="'Space Grotesk', sans-serif" font-size="11" font-weight="600">ACADEMIC AUDIT</text>
+  <text x="680" y="295" fill="#C9A44C" font-family="'Space Grotesk', sans-serif" font-size="24" font-weight="700">Synced</text>
+
+  <!-- Lower Analytics / Graph Card -->
+  <rect x="250" y="340" width="595" height="165" rx="4" fill="#1C1C1C" stroke="#303030"/>
+  <text x="275" y="375" fill="#FFFFFF" font-family="'Space Grotesk', sans-serif" font-size="14" font-weight="700">Cohort Skill Distribution &amp; Readiness Trend</text>
+  <!-- Chart Line -->
+  <path d="M 275 460 L 350 430 L 430 445 L 510 405 L 590 415 L 670 380 L 750 390 L 815 365" fill="none" stroke="#C9A44C" stroke-width="2.5"/>
+  <circle cx="815" cy="365" r="4" fill="#FFFFFF"/>
+</svg>
