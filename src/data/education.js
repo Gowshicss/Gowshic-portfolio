@@ -6,7 +6,7 @@ export const educationData = {
   degree: "B.Tech in Information Technology",
   institution: "Dr. Mahalingam College of Engineering and Technology",
   location: "Pollachi, Tamil Nadu, India",
-  duration: "2025 – 2029", // Editable
+  duration: "2025 - 2029", // Editable
   cgpa: "CGPA: 8.89 / 10", 
   focusAreas: [
     "Artificial Intelligence & Machine Learning",
